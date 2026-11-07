@@ -1,6 +1,42 @@
-# Customer Churn Analysis
+
+<div align="center">
+
+# 📊 Customer Churn Analysis
+
+### Understanding Customer Behavior Through Data Analytics and Statistical Analysis
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4c72b0)](https://seaborn.pydata.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+
+</div>
+
+---
+
 
 **A Data Analysis Project Using Python**
+
+## 📑 Table of Contents
+
+- [Project Overview](#1-project-overview)
+- [Project Objectives](#2-project-objectives)
+- [Dataset Description](#3-dataset-description)
+- [Tools and Technologies](#4-tools-and-technologies)
+- [Project Workflow](#5-project-workflow)
+- [Exploratory Data Analysis](#6-exploratory-data-analysis)
+- [Statistical Analysis](#7-statistical-analysis)
+- [Key Findings](#8-key-findings)
+- [Business Recommendations](#9-business-recommendations)
+- [Project Structure](#10-project-structure)
+- [Installation and Usage](#11-installation-and-usage)
+- [Project Outputs](#12-project-outputs)
+- [Conclusion](#13-conclusion)
+- [Author](#author)
+
+---
 
 ## 1. Project Overview
 
@@ -33,6 +69,17 @@ The project uses two datasets:
 - Record Dataset: 100,000 records
 - Common Key: `Customer_ID`
 - Merged Dataset: 100,000 rows and 100 columns
+
+### 📈 Dataset at a Glance
+
+| Metric | Value |
+|---|---:|
+| Total Customers | 100,000 |
+| Total Features | 100 |
+| Retained Customers | 50,438 |
+| Churned Customers | 49,562 |
+| Overall Churn Rate | 49.56% |
+
 
 ## 4. Tools and Technologies
 
@@ -90,6 +137,32 @@ All three factors showed statistically significant associations with customer ch
 
 However, their association strengths were relatively weak.
 
+
+## 📊 Data Visualizations
+
+### 1. Customer Churn Distribution
+
+![Customer Churn Distribution](outputs/figures/churn_distribution.png)
+
+### 2. Equipment Age vs Churn
+
+![Equipment Churn](outputs/figures/equipment_churn.png)
+
+### 3. Revenue Group vs Churn
+
+![Revenue Churn](outputs/figures/revenue_churn.png)
+
+### 4. Customer Tenure vs Churn
+
+![Tenure Churn](outputs/figures/tenure_churn.png)
+
+### 5. Comparative Statistical Analysis
+
+![Comparative Analysis](outputs/figures/comparative_analysis.png)
+
+---
+
+
 ## 8. Key Findings
 
 1. **Equipment Age:** Customers using equipment older than two years have the highest churn rate (57.89%).
@@ -132,6 +205,7 @@ GCI Final Assignment/
 ├── reports/
 │   └── final_analysis.pdf
 │
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -141,13 +215,11 @@ GCI Final Assignment/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
+git clone https://github.com/eastiak14/Customer-Churn-Analysis.git
 ### Step 2: Navigate to the Project Folder
 
 ```bash
-cd GCI-Final-Assignment
+cd Customer-Churn-Analysis
 ```
 
 ### Step 3: Install Dependencies
@@ -189,3 +261,25 @@ Statistical association does not necessarily imply causation. Further predictive
 **Project:** Customer Churn Analysis  
 **Language:** Python  
 **Project Type:** Exploratory Data Analysis and Statistical Analysis
+
+---
+
+## 👨‍💻 Author
+
+**Eastiak Remon**
+
+Computer Science & Engineering Student  
+Daffodil International University
+
+[![GitHub](https://img.shields.io/badge/GitHub-eastiak14-181717?logo=github)](https://github.com/eastiak14)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Eastiak%20Remon-0A66C2?logo=linkedin)](https://www.linkedin.com/in/eastiak-remon-38a18919a/)
+
+---
+
+<div align="center">
+
+**If you find this project useful, consider giving it a ⭐**
+
+Made with Python and curiosity.
+
+</div>
