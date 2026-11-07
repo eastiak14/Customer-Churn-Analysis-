@@ -1,0 +1,5 @@
+revenue_group,total_customers,churned_customers,churn_rate
+Low Revenue,24921,13122,52.65438786565547
+Medium Revenue,24901,11877,47.69687964338782
+High Revenue,24911,12210,49.014491590060615
+Very High Revenue,24910,12108,48.6069851465275

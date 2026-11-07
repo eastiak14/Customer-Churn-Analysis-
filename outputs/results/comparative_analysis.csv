@@ -1,0 +1,4 @@
+Factor,Chi_Square,P_Value,Cramers_V,Association,Significance
+Equipment Age,1099.3107452465624,5.136e-238,0.10484854498103191,Weak,Significant
+Revenue Group,141.87868503502918,1.487e-30,0.037734202873356854,Very Weak,Significant
+Customer Tenure,223.4120904052857,3.674e-48,0.047266488171355155,Very Weak,Significant
