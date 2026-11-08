@@ -64,6 +64,10 @@ The project uses two datasets:
 | Client.csv | Customer demographic and service information |
 | Record.csv | Customer usage, revenue, and churn information |
 
+The datasets were initially inspected separately to understand their structure, dimensions, missing values, and data quality. Both datasets contained 100,000 records and were merged using `Customer_ID` as the common key. An inner join with one-to-one validation was used to ensure correct matching.
+
+After merging, the final dataset contained **100,000 rows and 100 columns**.
+
 **Dataset Summary:**
 - Client Dataset: 100,000 records
 - Record Dataset: 100,000 records
@@ -93,16 +97,15 @@ The project uses two datasets:
 - Visual Studio Code
 
 ## 5. Project Workflow
-
-1. Data Loading
-2. Data Inspection
-3. Data Cleaning and Missing Value Analysis
-4. Dataset Merging
-5. Exploratory Data Analysis (EDA)
-6. Data Visualization
-7. Customer Churn Analysis
-8. Statistical Analysis
-9. Business Recommendations
+1. **Environment Setup:** Imported the required Python libraries.
+2. **Data Loading:** Loaded the Client and Record datasets.
+3. **Dataset Inspection:** Examined dataset dimensions, data types, missing values, duplicate records, and memory usage.
+4. **Dataset Merging:** Matched both datasets using `Customer_ID` with an inner join and one-to-one validation.
+5. **Data Quality Assessment:** Analyzed missing values and explored data quality.
+6. **Exploratory Data Analysis:** Examined churn distribution and customer behavior.
+7. **Statistical Analysis:** Applied correlation analysis and Chi-square tests.
+8. **Visualization:** Created charts to identify patterns and relationships.
+9. **Business Insights:** Summarized findings and developed recommendations.
 
 ## 6. Exploratory Data Analysis
 
